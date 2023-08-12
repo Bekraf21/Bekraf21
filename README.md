@@ -14,7 +14,6 @@ local CloseGui = Instance.new("ImageButton")
 local Discord = Instance.new("ImageButton")
 local TextLabel = Instance.new("TextLabel")
 local Extras = Instance.new("ImageButton")
-local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -37,7 +36,7 @@ TextButton.Size = UDim2.new(0, 150, 0, 50)
 TextButton.Font = Enum.Font.Unknown
 TextButton.Text = "COMBAT"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextSize = 28.000
+TextButton.TextSize = 26.000
 TextButton.TextWrapped = true
 
 TextButton_2.Parent = Frame
@@ -122,21 +121,3 @@ Extras.Position = UDim2.new(0.767676771, 0, 0.889534891, 0)
 Extras.Size = UDim2.new(0, 45, 0, 38)
 Extras.Image = "rbxassetid://14298072167"
 
-ImageLabel.Parent = Extras
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(-1.4666667, 0, 1.73684216, 0)
-ImageLabel.Size = UDim2.new(0, 211, 0, 227)
-ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-
--- Scripts:
-
-local function XJCID_fake_script() -- Extras.LocalScript 
-	local script = Instance.new('LocalScript', Extras)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.extra.Visible = true
-	end)
-end
-coroutine.wrap(XJCID_fake_script)()
