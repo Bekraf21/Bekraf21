@@ -36,7 +36,7 @@ TextButton.Size = UDim2.new(0, 150, 0, 50)
 TextButton.Font = Enum.Font.Unknown
 TextButton.Text = "COMBAT"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextSize = 26.000
+TextButton.TextSize = 24.000
 TextButton.TextWrapped = true
 
 TextButton_2.Parent = Frame
@@ -48,7 +48,7 @@ TextButton_2.Size = UDim2.new(0, 150, 0, 50)
 TextButton_2.Font = Enum.Font.Unknown
 TextButton_2.Text = "WORLD"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.TextSize = 28.000
+TextButton_2.TextSize = 24.000
 
 TextButton_3.Parent = Frame
 TextButton_3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -59,7 +59,7 @@ TextButton_3.Size = UDim2.new(0, 150, 0, 50)
 TextButton_3.Font = Enum.Font.Unknown
 TextButton_3.Text = "UTILITY"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.TextSize = 28.000
+TextButton_3.TextSize = 24.000
 
 TextButton_4.Parent = Frame
 TextButton_4.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -70,7 +70,7 @@ TextButton_4.Size = UDim2.new(0, 150, 0, 50)
 TextButton_4.Font = Enum.Font.Unknown
 TextButton_4.Text = "RENDER"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.TextSize = 28.000
+TextButton_4.TextSize = 24.000
 
 TextButton_5.Parent = Frame
 TextButton_5.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -81,7 +81,7 @@ TextButton_5.Size = UDim2.new(0, 150, 0, 50)
 TextButton_5.Font = Enum.Font.Unknown
 TextButton_5.Text = "BLATANT"
 TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.TextSize = 28.000
+TextButton_5.TextSize = 24.000
 
 CloseGui.Name = "CloseGui"
 CloseGui.Parent = Frame
@@ -109,7 +109,7 @@ TextLabel.Size = UDim2.new(0, 138, 0, 28)
 TextLabel.Font = Enum.Font.Unknown
 TextLabel.Text = "V6 HUB"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 26.000
+TextLabel.TextSize = 22.000
 TextLabel.TextWrapped = true
 
 Extras.Name = "Extras"
